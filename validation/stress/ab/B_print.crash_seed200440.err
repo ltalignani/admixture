@@ -1,0 +1,112 @@
+
+[43325] signal 11 (2): Segmentation fault: 11
+in expression starting at /Users/loic/admixture/validation/stress/ab/cv_loop.jl:5
+jl_has_bound_typevars at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/jltypes.c:230
+jl_has_bound_typevars at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/jltypes.c:256
+ijl_has_typevar at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/jltypes.c:283
+intersect at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4179
+intersect_invariant at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3873
+intersect at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4298
+intersect_invariant at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3873
+intersect at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4298
+intersect_unionall_ at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3458
+intersect_unionall at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3549
+intersect at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4277
+intersect_unionall_ at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3458
+intersect_unionall at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3549
+intersect at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4277
+intersect_unionall_ at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3458
+intersect_unionall at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3549
+intersect at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4277
+intersect_unionall_ at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3462
+intersect_unionall at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3549
+intersect at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4251
+intersect_unionall_ at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3462
+intersect_unionall at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3572
+intersect at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4251
+intersect_unionall_ at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3458
+intersect_unionall at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3572
+intersect at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4259
+intersect_unionall_ at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3458
+intersect_unionall at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3549
+intersect at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4259
+intersect_unionall_ at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3458
+intersect_unionall at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3572
+intersect at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4259
+intersect_unionall_ at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3458
+intersect_unionall at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3572
+intersect at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4259
+intersect_unionall_ at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3458
+intersect_unionall at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3572
+intersect at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4259
+intersect_unionall_ at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3458
+intersect_unionall at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3549
+intersect at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4259
+intersect_unionall_ at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3462
+intersect_unionall at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3549
+intersect at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4251
+intersect_unionall_ at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3462
+intersect_unionall at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3549
+intersect at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4251
+intersect_unionall_ at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3462
+intersect_unionall at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3572
+intersect at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4251
+intersect_unionall_ at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3462
+intersect_unionall at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3549
+intersect at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4251
+intersect_tuple at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:3770
+intersect at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4291
+intersect_all at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4433
+jl_type_intersection_env_s at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/subtype.c:4681
+jl_typemap_intersection_node_visitor at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/typemap.c:543 [inlined]
+jl_typemap_intersection_visitor at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/typemap.c:810
+jl_typemap_intersection_visitor at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/typemap.c:768
+ml_matches at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/gf.c:5063
+ijl_matching_methods at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/gf.c:3325
+_methods_by_ftype at ./runtime_internals.jl:1608 [inlined]
+verify_call at ./../usr/share/julia/Compiler/src/reinfer.jl:576
+verify_method at ./../usr/share/julia/Compiler/src/reinfer.jl:239
+verify_method_graph at ./../usr/share/julia/Compiler/src/reinfer.jl:101
+scan_new_code! at ./../usr/share/julia/Compiler/src/reinfer.jl:87
+insert_backedges at ./../usr/share/julia/Compiler/src/reinfer.jl:77
+jfptr_insert_backedges_83716.1 at /Users/loic/.julia/juliaup/julia-1.13.4+0.aarch64.apple.darwin14/Julia-1.13.app/Contents/Resources/julia/lib/julia/sys.dylib (unknown line)
+jl_apply at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/julia.h:2319 [inlined]
+ijl_call_in_typeinf_world at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/gf.c:573
+insert_backedges_typeinf at ./../usr/share/julia/Compiler/src/reinfer.jl:659 [inlined]
+#_include_from_serialized#891 at ./loading.jl:1362
+_include_from_serialized at ./loading.jl:1321 [inlined]
+#_require_search_from_serialized#909 at ./loading.jl:2236
+_require_search_from_serialized at ./loading.jl:2122 [inlined]
+__require_prelocked at ./loading.jl:2800
+_require_prelocked at ./loading.jl:2660
+macro expansion at ./loading.jl:2578 [inlined]
+macro expansion at ./lock.jl:376 [inlined]
+__require at ./loading.jl:2542
+jfptr___require_42182.1 at /Users/loic/.julia/juliaup/julia-1.13.4+0.aarch64.apple.darwin14/Julia-1.13.app/Contents/Resources/julia/lib/julia/sys.dylib (unknown line)
+require at ./loading.jl:2518 [inlined]
+eval_import_path at ./module.jl:36 [inlined]
+eval_import_path_all at ./module.jl:60
+_eval_using at ./module.jl:137
+jfptr__eval_using_55432.1 at /Users/loic/.julia/juliaup/julia-1.13.4+0.aarch64.apple.darwin14/Julia-1.13.app/Contents/Resources/julia/lib/julia/sys.dylib (unknown line)
+jl_apply at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/julia.h:2319 [inlined]
+do_call at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/interpreter.c:123
+eval_stmt_value at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/interpreter.c:194 [inlined]
+eval_body at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/interpreter.c:675
+jl_interpret_toplevel_thunk at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/interpreter.c:884
+jl_toplevel_eval_flex at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/toplevel.c:742
+jl_eval_toplevel_stmts at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/toplevel.c:585
+jl_toplevel_eval_flex at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/toplevel.c:683
+ijl_toplevel_eval at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/toplevel.c:754 [inlined]
+ijl_toplevel_eval_in at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/toplevel.c:799
+jlplt_ijl_toplevel_eval_in_17864.1 at /Users/loic/.julia/juliaup/julia-1.13.4+0.aarch64.apple.darwin14/Julia-1.13.app/Contents/Resources/julia/lib/julia/sys.dylib (unknown line)
+eval at ./boot.jl:489
+include_string at ./loading.jl:3091
+_include at ./loading.jl:3151
+include at ./Base.jl:309
+exec_options at ./client.jl:344
+_start at ./client.jl:577
+jfptr__start_73997.1 at /Users/loic/.julia/juliaup/julia-1.13.4+0.aarch64.apple.darwin14/Julia-1.13.app/Contents/Resources/julia/lib/julia/sys.dylib (unknown line)
+jl_apply at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/julia.h:2319 [inlined]
+true_main at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/jlapi.c:985
+jl_repl_entrypoint at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/macos-honeycrisp-P2C257CXGN.1/019ebd63-635e-4155-b60a-9d2815900786/protected/build/macos-honeycrisp-P2C257CXGN-1/julialang/julia-ci/src/jlapi.c:1152
+Allocations: 6950231 (Pool: 6950081; Big: 150); GC: 158
