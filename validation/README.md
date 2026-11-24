@@ -144,3 +144,43 @@ puis ouvrir http://localhost:4000.
 4. **`.P`** : vérifier l'orientation des allèles. OpenADMIXTURE donne la
    fréquence de l'allèle A2 (colonne 6 du `.bim`). Si ADMIXTURE donne celle de
    A1, on aura P_x86 ≈ 1 − P_OpenADMIXTURE après alignement des colonnes.
+
+## Résultats de la comparaison (24/11/2026)
+
+ADMIXTURE 1.3.0 x86 (iTrop, 4 cœurs) contre OpenADMIXTURE 0.2.0 (Mac M3 Ultra),
+K = 1 à 8 (1 à 6 pour `sim`), 5 graines, `--cv`. Tableaux détaillés :
+`runs/openadmixture_<jeu>/compare_vs_admixture_x86_<jeu>.tsv`, produits par
+`compare_runs.py` (pour les jeux sans vrai Q, passer `""` comme 4ᵉ argument).
+
+**Log-vraisemblance et `.Q`** : à K = 1, identiques. Aux K bien identifiés
+(K ≤ 4 sur `eur` et `sim`, K ≤ 3 sur `mini`, K ≤ 2 sur `eur_2000snp`), même
+optimum : écart de log-vraisemblance < 0,02, RMSE des Q alignés ≤ 3·10⁻⁵. Au-delà,
+chaque programme tombe sur des optimums locaux selon la graine, sans que l'un
+soit systématiquement meilleur. Sur les simulations, l'erreur par rapport au
+vrai Q est la même (`mini` K = 3 : 0,02509 ; `sim` K = 4 : 0,00574).
+
+**Erreur de CV** : les deux choisissent le même K partout (`mini` 3, `sim` 4,
+`eur` 2, `eur_2000snp` 1). Aux K bien identifiés, les CV moyennes diffèrent de
+moins de 2·10⁻⁴. Aux K élevés, celle d'OpenADMIXTURE est un peu plus haute
+(jusqu'à +0,01 sur `eur_2000snp` K = 8), ce qui ne change pas le K retenu.
+
+**`.P`** : même orientation des allèles que ADMIXTURE (pas de 1 − P) ; RMSE
+des P alignés < 10⁻⁵ aux K bien identifiés.
+
+**`.Q_se` (bootstrap `-B200`)** : `slurm/bootstrap.sbatch` côté ADMIXTURE,
+`compare_qse.py` pour la comparaison. ADMIXTURE fait un bootstrap par blocs de
+10 Mb convertis en nombre de SNP (`eur` : 54 051 SNP sur 354,8 Mb → blocs de
+1 524 SNP, affiché dans le log). OpenADMIXTURE prend par défaut la racine cubique
+du nombre de SNP (38 pour `eur`), d'où des SE environ 2 fois plus petites sur
+données réelles :
+
+| `eur`, SE moyenne | ADMIXTURE | OA défaut (38 SNP) | OA SNP par SNP | OA `--bootstrap-block=1524` |
+|---|---|---|---|---|
+| K = 2 | 0,0951 | 0,0485 | 0,0195 | 0,0917 |
+| K = 3 | 0,1141 | 0,0844 | 0,0316 | 0,1168 |
+
+Avec la même longueur de bloc, les SE concordent (rapport médian 0,96 et 1,02,
+corrélation 0,99). Sur `mini` (simulé, SNP indépendants), la longueur de bloc ne
+change rien. ADMIXTURE plante sur `mini` : ses SNP couvrent 5 kb, moins qu'un
+bloc de 10 Mb, et le bootstrap échoue au premier réplicat. ADMIXTURE écrit aussi
+un fichier `.Q_bias`, qu'OpenADMIXTURE ne produit pas.
